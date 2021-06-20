@@ -1,4 +1,5 @@
 public class Account {
+    
     int id;
     String name;
     String document;
@@ -9,5 +10,5 @@ public class Account {
         this.name=name;
         this.document=document;
     }
-    
+
 }
