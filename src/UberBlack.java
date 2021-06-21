@@ -2,8 +2,7 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class UberBlack extends Car {
-    
-    int id;
+
     Map<String,Map<String,Integer>> typeCarAccepted;
     ArrayList<String> seatsMaterial;
 

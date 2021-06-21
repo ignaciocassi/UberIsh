@@ -8,5 +8,11 @@ public class UberX extends Car {
         this.make=make;
         this.model=model;
     }
+
+    @Override
+    public void printCarData() {
+        super.printCarData();
+        System.out.println("Make: "+make+" Model: "+model+".");
+    }
     
 }
